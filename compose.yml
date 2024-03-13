@@ -1,0 +1,6 @@
+services:
+  recognizer:
+    build: .
+    container_name: py-recognizer
+    ports:
+      - 8000:8000
